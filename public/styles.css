@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.99rem;
+    /* font-weight: bold; */
+}
+
+/* @media all and (max-width: 900px) {  //'media' stands for the devices, 'all' stands for the types u're targetting
+    .diocane {
+        background-color: red;
+    }
+} */
+
+.myTabList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.myTabList li {
+    /* color: white; */
+    margin: 0 40px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.ciao.react-tabs__tab--selected {
+    border-bottom: 2px solid orange;
+    margin-bottom: -2px;
+  }
+
+span.material-icons {
+    color: white;
+}
+
+span.material-icons.containerIcon {
+    color: blue
+}
+
+p {
+    color: white;
+}
+
+.react-calendar {
+    width: 500px;
+    height: 47px;
+}
+
+.inside {
+    padding: 0 18% 0 18%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .insideFlights {
+    padding: 0 18% 0 18%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+} */
+
+.pickThis {
+    height: 2.5rem;
+    width: 99%;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.react-datepicker {
+    margin-left: 100%;
+}
